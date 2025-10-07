@@ -1,0 +1,200 @@
+ssh-keygen
+cd
+pwd
+ls -la
+cd .ssh
+la -la
+cd .ssh/
+cat id_rsa.pub
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+cd ssh
+cd ssh/
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+ssh -T git@github.com
+cat ~/.ssh/id_ed25519.pub
+ssh-keygen -t ed25519 -C "dieggorojas156@gmail.com"
+ls -l ~/.ssh
+ssh-keygen
+cd.ssh/
+cd .ssh
+ls -la
+cat ~/.ssh/id_rsa.pub
+cd 
+pwd
+sudo apt install git
+ssh -T git@github.com
+mkdir -p ~/repogit
+cd repogit
+git clone git@github.com:drael05/TP_AySO.git
+cd TP_AySO
+pwd
+ls -l
+cat /etc/mtab
+man gre
+man grep
+grep grep SYSFS /etc/mtab
+grep SYSFS /etc/mtab
+grep -i Sysfs /etc/mtab > datos_sys.txt
+ls -l
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git add
+git add .
+git config --global user.name "drael05"
+git config user.email "dieggrojas156@gmail.com"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt" 
+git status
+git push
+grep "^$(whoami):" /etc/passwd | awk -F: '{print $5, $6}' >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información del usuario"
+ls -l
+ls
+cat >> README.md << EOF
+Alumno: Dieggo Israel Rojas Rangel
+
+Div: 115
+Turno: Mañana
+ EOF
+EOF
+
+cat README.md
+cat <<EOF > README.md
+Alumno: Dieggo Israel Rojas Rangel
+Div: 115
+
+Turno: Mañana
+ EOF
+
+
+EOF
+
+cat readme.md
+cat README.md
+cat <<EOF > README.md
+
+ Alumno: Dieggo Israel Rojas Rangel
+
+ Div: 115
+
+Turno: Mañana
+
+EOF
+
+cat README.md
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+sudo apt update
+cd home
+cd Home
+cd mkdir -p TP1/{arquitectura/{Clase{1..5}},so/{Clase{1..6}}}
+cd HOME
+sudo apt install tree
+echo '#!/bin/bash' > script_dir.sh
+echo 'mkdir -p TP1/{arquitectura/{Clase{1..5}},so/{Clase{1..6}}}' >> script_dir.sh
+chmod +x script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
+git add .
+cp ~/.bash_history ./Historial_comandos_Pereyra.txt
+rm ./Historial_comandos_Pereyra.txt
+cp ~/.bash_history ./Historial_comandos_Rojas.txt
+git add
+git add .
+git commit -m "ADD: Historial de comandos de Apellido"
+git push
+git add.
+git add
+git add .
+vagrant halt
+git credential -cache exit
+cat ~/.ssh/id_rsa.pub
+cd
+pwd
+ssh -T git@github.com
+cd repogit
+git clone git@github.com:drael05/TP_AySO.git
+rm -rf /repogit
+cd agrant
+vagrant cd
+cd HOME
+ls repogit
+ls - la
+ls -la
+rm TP_AySO
+rm -rf TP_AySO
+ls -la
+cd 
+pwd
+ssh -T git@github.com
+cd repogit
+git clone git@github.com:drael05/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/mtab
+man grep
+grep -i SYSFS /etc/mtab
+man grep
+grep SYSFS /etc/mtab
+grep -i Sysfs /etc/mtab > datos_sys.txt
+cat datos_sys.txt
+grep home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git config --global user.name "dieggorojas156@gmail.com"
+git config --global user.name "drael05"
+git config --global user.mail "dieggorojas156@gmail.com"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status 
+git push
+grep "^$(whoami):" /etc/passwd | awk -F: '{print $5, $6}' >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información del Usuario"
+cat <<EOF > README.md
+Alumno : Dieggo Rojas
+Div : 115
+Turno : Mañana
+EOF
+
+cat README.md
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+cd $HOME 
+mkdir -p TP1/{arquitectura/{Clase{1..5}},so/{Clase{1..6}}}
+ls -R TP1
+sudo apt update
+sudo apt install tree
+mkdir -p TP1/{arquitectura/{Clase{1..5}},so/{Clase{1..6}}}
+ls -R TP1
+tree TP1/
+echo '#!/bin/bash' > script_dir.sh
+echo 'mkdir -p TP1/{arquitectura/{Clase{1..5}},so/{Clase{1..6}}}' >> script_dir.sh
+chmod +x script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+cd repogit
+echo '#!/bin/bash' > script_dir.sh
+chmod +x script_dir.sh
+git add .
+cd TP_AySO
+echo '#!/bin/bash' > script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
